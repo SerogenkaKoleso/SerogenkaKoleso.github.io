@@ -1,6 +1,28 @@
 h1{
-	font-size: 25px;
+	font-size: 45px;
 }
 p{
 	text-align: center;
 }
+*{
+	background-color: #ffc;
+   			color: #666;
+}
+img{
+	margin: 0 auto;
+	text-align: center;
+}
+div{
+	width: 100%;
+}
+tr{
+	border: 2px solid blue;
+}
+td{
+	margin: 2px;
+	text-align: center;
+}
+.mod {
+	font-size: 18px;
+}
+
