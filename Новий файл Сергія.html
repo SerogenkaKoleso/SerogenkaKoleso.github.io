@@ -1,35 +1,66 @@
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
+		*{
+			text-align: center;
+		}
 		.wrapper{
 			display: flex;
 			justify-content: space-around;
 			width: 80%
 			margin:0 auto; 
 		}
+		.card{
+			
+			box-sizing: border-box;
+			border-radius: 20px;
+			border:3px solid gray;
+			cursor: pointer;
+		}
+		.card:hover{
+			border:3px solid black;
+			background: #fff5ee;
+		}
+		.wrapper a{
+			color: black;
+			text-decoration: none;
+			width: 30%;
+		}
 	</style>
 </head>
 <body>
 	<h1>Професії майбутнього</h1>
 	<div class="wrapper">
-		<div class="card">
-			<a href=""><img src="icons8-обучение-100.png" alt=""></a>
-			<h3>Дрофесії майбутнього</h3>
-			<p>Дізнайтеся більше про професії марбутнього тут</p>
-		</div>
-		<div class="card">
-			<a href=""><img src="icons8-обучение-100.png" alt=""></a>
-			<h3>Професіні навички</h3>
-			<p>Дізнайтеся більше про навички 21-го століття  тут</p>
-		</div>
-		<div class="card">
-			<a href=""><img src="icons8-обучение-100.png" alt=""></a>
-			<h3>Моє резюме</h3>
-			<p>Дізнайтеся більше про професії марбутнього тут</p>
-		</div>
+		<a href="Галузі майбутнього.html">
+			<div class="card">
+				<img src="icons8-обучение-100.png" alt="">
+				<h3>Дрофесії майбутнього</h3>
+				<p>Дізнайтеся більше про професії марбутнього тут</p>
+			</div>
+		</a>
+		
+		<a href="Набір міжпрофесійних якостей.html">
+			<div class="card">
+			
+				<img src="icons8-обучение-100.png" alt="">
+				<h3>Професіні навички</h3>
+				<p>Дізнайтеся більше про навички 21-го століття  тут</p>
+			</div>
+		</a>
+		
+		<a href="Резюме.html">
+			<div class="card">
+			
+				<img src="icons8-обучение-100.png" alt="">
+				<h3>Моє резюме</h3>
+				<p>Дізнайтеся більше про мене тут</p>	
+			</div>
+		</a>
+		
 	</div>
 </body>
 </html>
